@@ -37,6 +37,5 @@ return kittens.slice(0, kittens.length -1);
 }
 
 function removeFirstKitten(array){
-kittens= kittens.slice()
-  return kittens
+return kittens= kittens.slice()
 }
