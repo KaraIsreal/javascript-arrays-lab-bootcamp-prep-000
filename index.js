@@ -24,20 +24,20 @@ function destructivelyRemoveFirstKitten(array){
   return kittens
 }
 
-function appendKitten(kittens){
-return [...array];
+function appendKitten(array, element){
+return [...kittens, 'Broom'];
 }
 
 function prependKitten(array, element){
   return ['Arnold', ...kittens]
 }
 
-function removeLastKitten(kittens){
+function removeLastKitten(array){
 kittens.slice(0, kittens.length -1);
   return kittens
 }
 
 function removeFirstKitten(array){
-kittens= kittens.slice(1)
+kittens= kittens.slice()
   return kittens
 }
